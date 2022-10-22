@@ -182,7 +182,7 @@ class InfrastructureStack(Stack):
                         "install":{
                             "commands": [
                                 "cd blog",
-                                "gem install jekyll bundler -v 4.2.2",
+                                "gem install bundler jekyll:4.2.2",
                                 "bundle install"
                             ]
                         },
