@@ -1,0 +1,10 @@
+{
+  "hosted-zone:account=383658215707:domainName=sandbox.cleanslatetg.dev:region=us-east-1": {
+    "Id": "/hostedzone/Z00597901CW10NAVUUJF4",
+    "Name": "sandbox.cleanslatetg.dev."
+  },
+  "hosted-zone:account=310141637485:domainName=cleanslatetg.cloud:region=us-east-1": {
+    "Id": "/hostedzone/Z2BVXRMR8ZWZEC",
+    "Name": "cleanslatetg.cloud."
+  }
+}
