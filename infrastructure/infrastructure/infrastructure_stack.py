@@ -17,7 +17,6 @@ from aws_cdk import (
     RemovalPolicy,
 )
 from constructs import Construct
-import pip
 
 class InfrastructureStack(Stack):
 
