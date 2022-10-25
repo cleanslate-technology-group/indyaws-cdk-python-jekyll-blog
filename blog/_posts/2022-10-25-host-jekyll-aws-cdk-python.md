@@ -123,10 +123,10 @@ There are several ways that infrastructure can be deployed to AWS, from creating
 12. After the deployment has finished, login to your AWS accounts management console, then select the region that you deployed the blog into
 13. Using the search bar at the top of the management console, search for and select “CodePipeline”
 14. Once in the CodePipline service, you will see the pipeline that was created by CDK for the blog. This is where you can see the progress of your blog deployments in the future. The first run of the CodePipeline will fail because you have to finish configuring the link between your AWS account and GitHub. 
-15. In the left-hand menu, under CodePipeline, select ********************Setting —> Connections********************
-16. On the connections, click on the pending connection named ************************************jekyll-static-site************************************
+15. In the left-hand menu, under CodePipeline, select **Setting —> Connections**
+16. On the connections, click on the pending connection named **jekyll-static-site**
 17. Once on the jekyll-static-site connection page, click the button to finish setting up the connection. Walk through the prompts to complete the setup.
-18. After the connection setup has been completed, you can return to CodePipeline. Select the pipeline for the blog and press the ******************************Release Changes****************************** button to force a new deployment.
+18. After the connection setup has been completed, you can return to CodePipeline. Select the pipeline for the blog and press the **Release Changes** button to force a new deployment.
 19. After the deployment has been completed, you should be able to see your blog at the domain name you provided in the .env file.
 20. Your blog is now published. You can post new articles to your blog by following the steps specified by your Jekyll theme. Once your new article is ready to be published, you can automatically deploy it by simply checking in your changes to the branch specified for the **REPO_BRANCH** variable in the .env file.
 
